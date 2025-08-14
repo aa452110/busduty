@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "cd web && npm install && npm run build && cd .. && cp -r functions ../functions"
+  },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250813.0",
     "wrangler": "^4.29.1"
