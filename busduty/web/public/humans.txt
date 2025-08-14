@@ -1,0 +1,23 @@
+/* TEAM */
+Creator: Brian Duryea
+Title: Computer Science Teacher
+Site: busduty.com
+Location: Mueller Park Junior High, Room 403, Bountiful, Utah
+
+/* THANKS */
+School: Mueller Park Junior High
+District: Davis School District
+Inspiration: Every teacher who's ever stood in the cold tracking buses
+
+/* SITE */
+Last update: 2025/01/13
+Language: English
+Standards: HTML5, CSS3, ES6+
+Components: React, TypeScript, Vite
+Infrastructure: Cloudflare Pages, Workers, D1, KV, R2
+Features: PWA, Offline Support, Real-time Updates
+
+/* MISSION */
+Making bus duty suck less, one tap at a time.
+Built by a teacher who gets it.
+Free forever for schools everywhere.

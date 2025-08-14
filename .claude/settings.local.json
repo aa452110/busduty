@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm run build:*)",
+      "Bash(del \"C:\\Users\\bduryea\\OneDrive - Davis School District\\Desktop\\14_Dev_Projects\\project-busduty\\busduty\\web\\about.html\")",
+      "Bash(rm:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}

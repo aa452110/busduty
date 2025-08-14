@@ -1,0 +1,25 @@
+{
+  "name": "busduty",
+  "pages_build_output_dir": "web/dist",
+  "compatibility_date": "2025-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "kv_namespaces": [
+    { "binding": "BUS_CONFIG", "id": "62edfc27dafd4d16a3937851e63992a7" }
+  ],
+  "d1_databases": [
+    { "binding": "BUS_DB", "database_name": "busduty-db", "database_id": "4da0e573-78bf-4103-b2ef-0a51b1d498c5" }
+  ],
+  "r2_buckets": [
+    { "binding": "ARCHIVES", "bucket_name": "busduty-archives" }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "BUS_HUB", "class_name": "BusHub", "script_name": "bus-hub-do" }
+    ]
+  },
+  "vars": {
+    "TURNSTILE_SITE_KEY": "",
+    "TURNSTILE_SECRET_KEY": ""
+  }
+}
